@@ -1,0 +1,10 @@
+@charset 'UTF-8';
+
+.validation-err{
+  background-color: rgba(255,0,0,0.1);
+}
+
+.errMsg:after {
+  content: "*必須項目";
+  color: red;
+}
